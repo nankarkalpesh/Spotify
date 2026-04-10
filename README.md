@@ -1,67 +1,126 @@
-# 🎧 Spotify-Analysis-PowerBI
+# 🎵 Spotify Top 50 World — Power BI Dashboard
 
-Power BI dashboard created using Spotify dataset to analyze song performance, artist popularity, trends, and music insights using interactive visualizations.
+> 📊 Interactive Power BI dashboard analyzing Spotify Top 50 World data to uncover trends in songs, artists, popularity, and streaming performance.
 
----
-
-## 🎵 Spotify Power BI Dashboard
-
-This project contains a Power BI report (`spotify_dashboard.pbix`) built to analyze Spotify Top 50 music data and provide insights into tracks, artists, popularity trends, album distribution, and explicit content comparison.
-
-The dashboard enables stakeholders to monitor KPIs, track trends over time, and identify high-performing songs and artists efficiently.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
 
 ---
 
-## 📊 Features & Insights
+## 📌 Project Overview
 
-- Top Songs & Top Artists Analysis  
-- KPI Monitoring (Total Songs, Distinct Artists, Avg Popularity, Avg Duration)  
-- Explicit vs Non-Explicit Song Comparison  
-- Album Type Distribution (Single, Album, Compilation)  
-- Year-wise & Monthly Trend Analysis  
-- Artist-Level Drill-down Insights  
-- Song-Level Detailed Ranking Table  
-- Interactive Filters & Slicers  
+This project analyzes **Spotify Top 50 World dataset** covering global chart performance.
 
----
-
-## 🛠 Tools & Technologies Used
-
-| Tool/Tech | Purpose |
-|------------|----------|
-| Power BI | Data visualization and dashboard creation |
-| Spotify Top 50 Dataset | Data source for analysis (tracks, artists, popularity metrics) |
-| DAX | KPI calculations and measures |
-| Power Query | Data cleaning and transformation |
+It provides insights into:
+- 🎤 Artist performance
+- 🎵 Song popularity trends
+- 📅 Monthly listening behavior
+- 📊 Distribution of songs across album types
+- 🔥 Explicit vs Non-explicit content trends
 
 ---
 
-## 📌 Business Impact
+## 🖼️ Dashboard Screenshots
 
-This dashboard solves the limitation of raw ranking data by:
+### 🏠 Home
+<p align="center">
+  <img src="Home.jpeg" width="900"/>
+</p>
 
-- Providing quick KPI monitoring  
-- Enabling trend visibility over time  
-- Connecting Artist and Song-level insights  
-- Supporting marketing and playlist curation decisions  
-- Identifying consistent hit artists and top-performing songs  
+### 📊 Overview
+<p align="center">
+  <img src="Overview.jpeg" width="900"/>
+</p>
+
+### 🎤 Artists
+<p align="center">
+  <img src="Artists.jpeg" width="900"/>
+</p>
+
+### 🎵 Songs
+<p align="center">
+  <img src="Songs.jpeg" width="900"/>
+</p>
+
+---
+
+## 📊 Key KPIs
+
+| KPI | Value |
+|-----|-------|
+| 🎵 Total Songs | 789 |
+| 🎤 Total Artists | 342 |
+| ⭐ Avg Popularity | 90 |
+| ⏱️ Avg Duration | 3.28 min |
+| 📅 Data Coverage | 2023–2024 |
+
+---
+
+## 📋 Dashboard Features
+
+### 🏠 Home
+- Navigation panel for all report pages
+- Spotify-themed UI design
+
+### 📊 Overview
+- KPI Cards (Songs, Artists, Popularity, Duration)
+- Songs by Artist (Top performers)
+- Popularity trend by Month
+- Album Type distribution (Album / Single)
+- Explicit vs Non-explicit breakdown
+- Year-wise song distribution
+
+### 🎤 Artists
+- Songs by Artist ranking
+- Total popularity by artist
+- #1 chart hits per artist
+- Detailed artist table (songs, popularity, duration)
+- 🎵 “Now Playing” dynamic card
+
+### 🎵 Songs
+- Song-level popularity analysis
+- Multi-artist collaborations
+- Song hits per artist
+- Detailed songs table (release date, album type)
+- Interactive filtering across visuals
+
+---
+
+## 🏆 Key Insights
+
+- 🎤 **Taylor Swift** dominates with highest songs & popularity
+- 📅 **2024 songs** slightly higher than 2023 releases
+- 🎵 **Albums** dominate over singles in chart presence
+- 🔞 **Non-explicit songs** are more common than explicit
+- 📈 Popularity peaks in **January**
+- 🥇 *“Die With A Smile”* has the most #1 chart positions
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|------|--------|
+| Power BI Desktop | Dashboard creation |
+| Power Query | Data cleaning |
+| DAX | Measures & KPIs |
+| CSV Dataset | Data source |
 
 ---
 
 ## 🤝 Contributions
 
-Contributions are welcome!  
-Feel free to submit issues or pull requests to improve the report or add new features.
+Contributions are welcome! Feel free to open issues or pull requests to improve the dashboard or add new insights.
 
 ---
 
 ## ⭐ Support
 
-If you like this project, don’t forget to ⭐ the repository!
+If you found this project helpful, please ⭐ star the repository!
 
 ---
 
 ## 👤 Author
 
-**Kalpesh Nankar**  
-📧 nankarkalpesh290@gmail.com  
+**Kalpesh Nankar**
+📧 nankarkalpesh290@gmail.com
